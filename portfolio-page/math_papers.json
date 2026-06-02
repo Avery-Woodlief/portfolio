@@ -1,0 +1,16 @@
+[
+	{
+		"title": "Learning With Errors",
+		"file": "../documents/LWE_paper.pdf"
+	},
+
+	{
+		"title": "Gram Schmidt Orthogonalization",
+		"file": "../documents/Math_482_paper.pdf"
+	},
+
+  {
+		"title": "Intro to Particle Systems",
+		"file": "../documents/final_paper_math_300.pdf"
+	}
+]

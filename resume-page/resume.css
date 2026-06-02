@@ -1,0 +1,131 @@
+
+#objective, #education, #experience, #workshops {
+  list-style-type: none;
+}
+
+#resume {
+  border:grey 5px;
+  border-style: double;
+  background-color:white;
+  margin-top:0px;
+  padding-top:0px;
+}
+
+#contact_box {
+  /*background-color: blue;*/
+  padding-top:0px;
+  margin-top:0px;
+  margin-left:30vw;
+  margin-right:30vw;
+  border:5px outset aliceblue;
+  border-top:1px solid white;
+}
+
+#extra1 {
+  /*border:2px solid black;
+  margin:20px;
+  padding:0px;*/
+  margin:10px;
+  padding:20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#inner_resume {
+  background-color: white;
+  margin-top:0px;
+  padding-top:0px;
+}
+
+#start {
+  margin-top:0;
+  border: white 10px;
+  background-color:white;
+  border-style: solid;
+} 
+
+#end {
+  margin-bottom: 0;
+  border: white 10px;
+  background-color:white;
+  border-style: solid;
+}
+
+.section {
+  margin-top:1vw;
+  margin-left:1vw;
+  border:1px none black;
+}
+
+.divider_outset {
+  border: aliceblue 3px;
+  background-color:black;
+  border-style: outset;
+}
+
+.divider_inset {
+  border: aliceblue 3px;
+  background-color:black;
+  border-style: inset;
+}
+
+.divider_ridge {
+  border: aliceblue 5px;
+  background-color:black;
+  border-style: ridge;
+  
+}
+
+.divider_groove {
+  border: aliceblue 5px;
+  background-color:black;
+  border-style: groove;
+  
+}
+
+.divider_double {
+  border: aliceblue 5px;
+  background-color:black;
+  border-style: double;
+  
+}
+
+.divider_solid {
+  border: aliceblue 5px;
+  background-color:black;
+  border-style: solid;
+  
+}
+
+.divider_dashed {
+  border: aliceblue 5px;
+  background-color:black;
+  border-style: dashed;
+  
+}
+
+.divider_dotted {
+  border: aliceblue 5px;
+  background-color:black;
+  border-style: dotted;
+  
+}
+
+.divider_hidden {
+  border: aliceblue 5px;
+  background-color:black;
+  border-style: hidden;
+  
+}
+
+.divider_none {
+  border: aliceblue 5px;
+  background-color:black;
+  border-style: none;
+  
+}
+
+
+#resume {
+  margin:50px;
+}

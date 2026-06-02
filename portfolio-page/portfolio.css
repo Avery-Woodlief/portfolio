@@ -1,0 +1,248 @@
+#page-content {
+    display: grid;
+    grid-template-columns: 15rem 35rem 42.5rem;
+    /*grid-template-rows: 20rem 20rem 20rem;*/
+    grid-template-areas: "papers codepen github";
+    gap:0rem;
+    min-height: 100vh;
+    /*! margin-left:-4px; */ /*! margin-right:-167px; */ /*
+    margin-top:0px;
+    margin-bottom:0px;
+    */ /*! padding-left:1px; */ /*! padding-right:52px; */ /*
+    padding-top:0px;
+    padding-bottom:0px;*/
+    /*! gap: -46px; */
+    /*! box-sizing: content-box;
+    justify-content: end;*/
+    overflow: hidden;
+    
+}
+
+.column-title {
+  color: black;
+  grid-column: 1/-1;
+  /*text-decoration: underline;*/
+  font-size: larger;
+  margin: 0;
+  padding: 0;
+  padding-left:0px;
+  text-align: center;
+  opacity: 1;
+  border-bottom: 3px solid rgba(0, 0, 0, .75);
+  font-weight: bold;
+  width:100%;
+  height:auto;
+  align-self: start;
+  line-height: 2;
+  position:sticky;
+  
+  top:0;
+  background-color: white;
+  z-index:10;
+  
+}
+
+#math-papers {
+  
+  grid-area: papers;
+  /*border:1px solid black;*/
+  display: block;
+  /*! display: flex; */ /*
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;*/
+  width: auto;
+  
+  text-align:left;
+  /*! padding-top:5px; */
+  /*! padding-left:1px; */ /*! padding-right:0px; */ /*! padding-bottom:122px; */ margin-left:0px; /*! margin-right:-21px; */ margin-top:0; /*! margin-bottom:360px; */
+  /*! height: 16%; */
+  overflow-y:auto;
+}
+
+.paper-link {
+
+  /*border:5px solid cyan;*/
+  display:flex;
+  /*! margin-left:25px; */
+  /*! gap:25%; */
+  /*! margin:0px; */ /*
+  padding:0px;*/
+  width:100%;
+  
+  margin-top:1rem;
+}
+
+.paper {
+  /*padding:0;*/
+  /*! margin-top:5px; */
+  width:100%;
+  border-radius: .3rem;
+  /**/
+  font-size:12.75px;
+  /*border-radius: 4px;*/
+  height:auto;
+  border:2px solid #d1d9e0;
+  /*! margin-left: 30px; */
+}
+
+#github-projects, #codepen-projects {
+  overflow-y: auto;
+  position:relative;
+  column-gap: 2%;
+  row-gap: .5rem;
+  
+}
+
+#github-projects {
+  grid-area: github;
+  /*! padding-left:2px; */
+  /*! margin-right: 20px; */
+  
+  /*border:1px solid black;*/
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: auto;
+  /*margin-left:2rem;*/
+  align-content: start;
+  grid-auto-rows: max-content;
+  
+  justify-content:center;
+  
+  
+  
+  
+}
+
+.github-project-header {
+  /*border:1px solid black;*/
+  display:flex;
+  flex-direction:row;
+}
+
+.github-project-card {
+  
+  border: 2px solid #d1d9e0;
+  font-size:.85vw;
+  padding: 0.5rem;
+  margin-left:0rem;
+  margin-right:0rem;
+  margin-top:0rem;
+  margin-bottom: 0rem;
+  height:100%;
+  box-sizing: border-box;
+  z-index:1;
+  border-radius:4px;
+  background-color:#ffffff;
+}
+
+.github-project-link, .codepen-link {
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+  margin-top:0.5rem;
+  margin-bottom: 0rem;
+  /*border:1px solid blue;*/
+  border-radius: 4px;
+  
+}
+
+#github-projects:before,#codepen-projects:before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: black;
+
+  z-index: 11;
+
+  pointer-events: none;
+}
+
+
+
+#codepen-projects {
+  width:auto;
+  
+  grid-area: codepen;
+  /*overflow:hidden;*/
+  /*border:1px solid orange;*/
+  /*border-left:3px solid rgba(0, 0, 0, .75);
+  border-right:3px solid rgba(0, 0, 0, .75);*/
+  margin-left:0rem;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+  
+  grid-template-rows: max-content max-content;
+  /*padding-bottom:19.5vw;*/
+  
+  /*padding-bottom:18vw;
+  border:1px solid black;
+  display: grid;
+  grid-template-columns: repeat(2, .5fr);
+  width: 120%;
+  gap:2%;
+  margin-left: -8.1rem;
+  
+  
+  padding: 10px;
+  padding-top: 0;*/
+  
+}
+
+.codepen-project-header {
+  display:flex;
+  flex-direction: row;
+  
+}
+
+.codepen-project-card {
+  border: 2px solid #d1d9e0;
+  font-size:.85vw;
+  padding: 1rem;
+  padding-bottom: .5rem;
+  
+  margin-left:0rem;
+  margin-right:0rem;
+  height: auto;
+  box-sizing: border-box;
+  
+  border-radius:4px;
+  background-color:#ffffff;
+  margin-top:0rem;
+  
+}
+
+
+
+.fa-codepen {
+  font-size:.8rem;
+}
+
+.fa-globe {
+  
+  font-size:.65rem;
+}
+
+.fa-github {
+  
+  font-size:15px;
+}
+
+.language-icon {
+  width: 24px;
+  height: 24px;
+    
+}
+
+body {
+  display:block;
+  min-height:100%;
+  overflow:hidden;
+}
+
+
+
+

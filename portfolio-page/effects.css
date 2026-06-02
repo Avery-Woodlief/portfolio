@@ -1,0 +1,7 @@
+.github-project-card, .codepen-project-card, .paper {
+  transition: background-color 1s;
+}
+
+.github-project-card:hover, .codepen-project-card:hover, .paper:hover{
+  background-color: rgba(255, 200, 0, .1);
+}
