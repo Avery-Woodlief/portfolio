@@ -4,7 +4,7 @@
 }
 
 #resume {
-  border:grey 5px;
+  border:grey .4vw;
   border-style: double;
   background-color:white;
   margin-top:0px;
@@ -128,4 +128,34 @@
 
 #resume {
   margin:50px;
+}
+
+
+@media (max-width: 900px) {
+  #resume {
+    margin: 0;
+    width: 90%;
+    
+    margin-left:4.5vw;
+  }
+
+  #contact_box {
+    width: 45%;
+    text-align: center;
+    border-width: 2px;
+    font-size:small;
+  }
+
+  .section {
+    
+    margin-top: 1rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
+
+  h1, h2, h3 {
+    overflow-wrap: break-word;
+  }
 }
