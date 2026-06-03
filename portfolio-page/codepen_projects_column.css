@@ -1,0 +1,63 @@
+#codepen-projects {
+  position:relative;
+  row-gap: .5rem;
+  overflow-y: scroll;
+  min-width: 0;
+}
+
+.codepen-link {
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+  margin-top:0.5rem;
+  margin-bottom: 0rem;
+  border-radius: 4px;
+  
+}
+
+#codepen-projects:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: black;
+  z-index: 11;
+  pointer-events: none;
+}
+
+.codepen-project-card {
+  font-size:clamp(0.85rem, 1vw, 1rem);
+}
+
+#codepen-projects {
+  width:auto;
+  grid-area: codepen;
+  margin-left:0rem;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content max-content;
+  
+}
+
+.codepen-project-header {
+  display:flex;
+  flex-direction: row;
+  
+}
+
+.codepen-project-card {
+  border: 2px solid #d1d9e0;
+  /*font-size:.85vw;*/
+  padding: 1rem;
+  padding-bottom: .5rem;
+  
+  margin-left:0rem;
+  margin-right:0rem;
+  height: auto;
+  box-sizing: border-box;
+  
+  border-radius:4px;
+  background-color:#ffffff;
+  margin-top:0rem;
+  
+}

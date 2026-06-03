@@ -1,0 +1,43 @@
+#math-papers {
+  
+  grid-area: papers;
+  /*border:1px solid black;*/
+  display: block;
+  /*! display: flex; */ /*
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;*/
+  width: auto;
+  min-width: 0;
+  text-align:left;
+  /*! padding-top:5px; */
+  /*! padding-left:1px; */ /*! padding-right:0px; */ /*! padding-bottom:122px; */ margin-left:0px; /*! margin-right:-21px; */ margin-top:0; /*! margin-bottom:360px; */
+  /*! height: 16%; */
+  overflow-y:auto;
+}
+
+.paper-link {
+
+  /*border:5px solid cyan;*/
+  display:flex;
+  /*! margin-left:25px; */
+  /*! gap:25%; */
+  /*! margin:0px; */ /*
+  padding:0px;*/
+  width:100%;
+  
+  margin-top:1rem;
+}
+
+.paper {
+  /*padding:0;*/
+  /*! margin-top:5px; */
+  width:100%;
+  border-radius: .3rem;
+  /**/
+  font-size:12.75px;
+  /*border-radius: 4px;*/
+  height:auto;
+  border:2px solid #d1d9e0;
+  /*! margin-left: 30px; */
+}
