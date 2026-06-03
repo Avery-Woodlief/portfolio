@@ -41,3 +41,17 @@
   border:2px solid #d1d9e0;
   /*! margin-left: 30px; */
 }
+
+@media (max-width:900px) {
+  #math-papers {
+    /*justify-self: stretch;*/
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align:left;
+    margin:0 auto;
+  }
+  .column-title {
+    border-bottom: 1px solid black;    
+  }
+}
