@@ -9,6 +9,7 @@
   background-color:white;
   margin-top:0px;
   padding-top:0px;
+  margin:0 auto;
 }
 
 #contact_box {
@@ -20,6 +21,11 @@
   border:5px outset aliceblue;
   border-top:1px solid white;
 }
+
+#mobile_contact_box {
+  display:none;
+}
+
 
 #extra1 {
   /*border:2px solid black;
@@ -130,21 +136,33 @@
   margin:50px;
 }
 
+@media (max-width: 650px) {
+  #desktop_contact_box {
+    display: none;
+  }
+  #mobile_contact_box {
+    display:inline;
+  }
+}
 
 @media (max-width: 900px) {
   #resume {
-    margin: 0;
+    margin: 0 auto;
     width: 90%;
     
-    margin-left:4.5vw;
+    
   }
 
   #contact_box {
-    width: 45%;
-    text-align: center;
+    width: 50%;
+    align-content: center;
     border-width: 2px;
     font-size:small;
+    display: flex;
+    margin:0 auto;
   }
+  
+  
 
   .section {
     
