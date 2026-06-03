@@ -60,3 +60,9 @@
 .github-project-card {
   font-size:clamp(0.85rem, 1vw, 1rem);
 }
+
+@media (max-width: 900px) {
+  #github-projects:before {
+    background-color:white;
+  }
+}

@@ -63,3 +63,9 @@
   margin-top:0rem;
   
 }
+
+@media (max-width: 900px) {
+  #codepen-projects:before {
+    background-color:white;
+  }
+}
