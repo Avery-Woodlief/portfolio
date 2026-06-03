@@ -87,7 +87,7 @@ async function loadMathPapers(){
 }
 
 async function loadGitHubProjects(){
-  const response = await fetch("http://localhost:5000/repos");
+  const response = await fetch("https://portfolio-server-ox5m.onrender.com");
   const repos = await response.json();
   console.log(repos);
   const projects = document.getElementById("github-projects");
