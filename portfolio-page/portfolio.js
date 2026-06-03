@@ -91,12 +91,7 @@ async function loadGitHubProjects(){
   const repos = await response.json();
   console.log(repos);
   const projects = document.getElementById("github-projects");
-  //const projects = document.getElementById("page-content");
   repos.forEach(async repo => {
-    //const langRes = await fetch(repo.languages_url);
-    //const langData = await langRes.json();
-    //const languageName = Object.keys(langData);
-    //const icons = languageName.map(lang => getLanguageIcon(lang)).join(" ");
     const icons = getLanguageIcon(repo.language);
     const link = document.createElement("a");
     link.href = repo.html_url;
